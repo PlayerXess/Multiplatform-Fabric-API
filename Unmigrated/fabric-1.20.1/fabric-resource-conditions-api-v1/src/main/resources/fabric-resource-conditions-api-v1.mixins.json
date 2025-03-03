@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin.resource.conditions",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "DataPackContentsMixin",
+    "DataProviderMixin",
+    "JsonDataLoaderMixin",
+    "LootManagerMixin",
+    "SinglePreparationResourceReloaderMixin",
+    "TagManagerLoaderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

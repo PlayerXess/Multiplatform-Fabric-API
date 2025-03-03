@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin.dimension",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "EntityMixin",
+    "RegistryCodecsMixin",
+    "Schema2832Mixin",
+    "TaggedChoiceMixin",
+    "TaggedChoiceTypeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
