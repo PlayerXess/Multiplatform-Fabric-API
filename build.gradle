@@ -2,6 +2,12 @@ plugins {
     id 'dev.architectury.loom' version '1.7-SNAPSHOT' apply false
     id 'architectury-plugin' version '3.4-SNAPSHOT'
     id 'com.github.johnrengelman.shadow' version '8.1.1' apply false
+    id "io.github.pacifistmc.forgix" version "1.2.9"
+}
+
+forgix {
+    group = "net.playerxess.mpfapi"
+    mergedJarName = "Multiplatform-Fabric-API-$mod_version-$minecraft_version"
 }
 
 architectury {
@@ -67,4 +73,8 @@ subprojects {
             // retrieving dependencies.
         }
     }
+
+    build.finalizedBy(mergeJars)
+    assemble.finalizedBy(mergeJars)
+
 }
