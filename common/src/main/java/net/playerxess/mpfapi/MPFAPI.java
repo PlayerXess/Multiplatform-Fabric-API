@@ -1,6 +1,6 @@
 package net.playerxess.mpfapi;
 
-public final class ExampleMod {
+public final class MPFAPI {
     public static final String MOD_ID = "mpfapi";
 
     public static void init() {

@@ -15,7 +15,7 @@
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": [
-        "net.playerxess.mpfapi.quilt.ExampleModQuilt"
+        "net.playerxess.mpfapi.quilt.MPFAPIQuilt"
       ]
     },
     "depends": [

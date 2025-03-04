@@ -1,10 +1,10 @@
 package net.playerxess.mpfapi.fabriclike;
 
-import net.playerxess.mpfapi.ExampleMod;
+import net.playerxess.mpfapi.MPFAPI;
 
-public final class ExampleModFabricLike {
+public final class MPFAPIFabricLike {
     public static void init() {
         // Run our common setup.
-        ExampleMod.init();
+        MPFAPI.init();
     }
 }

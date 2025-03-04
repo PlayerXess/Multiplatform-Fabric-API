@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.playerxess.mpfapi.fabric.ExampleModFabric"
+      "net.playerxess.mpfapi.fabric.MPFAPIFabric"
     ],
     "client": [
-      "net.playerxess.mpfapi.fabric.client.ExampleModFabricClient"
+      "net.playerxess.mpfapi.fabric.client.MPFAPIFabricClient"
     ]
   },
   "mixins": [

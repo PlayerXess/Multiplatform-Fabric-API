@@ -2,9 +2,9 @@ package net.playerxess.mpfapi.fabric;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.playerxess.mpfapi.fabriclike.ExampleModFabricLike;
+import net.playerxess.mpfapi.fabriclike.MPFAPIFabricLike;
 
-public final class ExampleModFabric implements ModInitializer {
+public final class MPFAPIFabric implements ModInitializer {
     @Override
     public void onInitialize() {
         // This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -12,6 +12,6 @@ public final class ExampleModFabric implements ModInitializer {
         // Proceed with mild caution.
 
         // Run the Fabric-like setup.
-        ExampleModFabricLike.init();
+        MPFAPIFabricLike.init();
     }
 }
