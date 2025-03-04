@@ -6,6 +6,13 @@
   "client": [
   ],
   "mixins": [
+    "AbstractFurnaceBlockEntityMixin",
+    "ArmorItemMixin",
+    "BrewingStandBlockEntityMixin",
+    "ItemMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "RecipeMixin"
   ],
   "injectors": {
     "defaultRequire": 1

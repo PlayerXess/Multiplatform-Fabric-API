@@ -2,6 +2,14 @@ architectury {
     common rootProject.enabled_platforms.split(',')
 }
 
+loom {
+    accessWidenerPath = file("src/main/resources/accesswideners/fabric-content-registries.accesswidener")
+    accessWidenerPath = file('src/main/resources/accesswideners/fabric-command-api.accesswidener')
+    accessWidenerPath = file("src/main/resources/accesswideners/fabric-lifecycle-events.accesswidener")
+    accessWidenerPath = file("src/main/resources/accesswideners/fabric-resource-loader.accesswidener")
+    accessWidenerPath = file("src/main/resources/accesswideners/fabric-gametest-api.accesswidener")
+}
+
 dependencies {
     // We depend on Fabric Loader here to use the Fabric @Environment annotations,
     // which get remapped to the correct annotations on each platform.
