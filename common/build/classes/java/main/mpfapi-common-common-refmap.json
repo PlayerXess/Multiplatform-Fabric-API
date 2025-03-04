@@ -5,16 +5,10 @@
       "Lnet/minecraft/util/collection/DefaultedList;set(ILjava/lang/Object;)Ljava/lang/Object;": "Lnet/minecraft/class_2371;set(ILjava/lang/Object;)Ljava/lang/Object;",
       "tick": "Lnet/minecraft/class_2609;method_31651(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2609;)V"
     },
-    "net/playerxess/mpfapi/item/ArmorItemMixin": {
-      "<init>": "Lnet/minecraft/class_1738;<init>(Lnet/minecraft/class_1741;Lnet/minecraft/class_1738$class_8051;Lnet/minecraft/class_1792$class_1793;)V"
-    },
     "net/playerxess/mpfapi/item/BrewingStandBlockEntityMixin": {
       "Lnet/minecraft/item/Item;hasRecipeRemainder()Z": "Lnet/minecraft/class_1792;method_7857()Z",
       "Lnet/minecraft/item/ItemStack;decrement(I)V": "Lnet/minecraft/class_1799;method_7934(I)V",
       "craft": "Lnet/minecraft/class_2589;method_11029(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2371;)V"
-    },
-    "net/playerxess/mpfapi/item/ItemMixin": {
-      "<init>": "Lnet/minecraft/class_1792;<init>(Lnet/minecraft/class_1792$class_1793;)V"
     },
     "net/playerxess/mpfapi/item/ItemStackMixin": {
       "Lnet/minecraft/item/Item;getAttributeModifiers(Lnet/minecraft/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;": "Lnet/minecraft/class_1792;method_7844(Lnet/minecraft/class_1304;)Lcom/google/common/collect/Multimap;",
@@ -42,16 +36,10 @@
         "Lnet/minecraft/util/collection/DefaultedList;set(ILjava/lang/Object;)Ljava/lang/Object;": "Lnet/minecraft/class_2371;set(ILjava/lang/Object;)Ljava/lang/Object;",
         "tick": "Lnet/minecraft/class_2609;method_31651(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2609;)V"
       },
-      "net/playerxess/mpfapi/item/ArmorItemMixin": {
-        "<init>": "Lnet/minecraft/class_1738;<init>(Lnet/minecraft/class_1741;Lnet/minecraft/class_1738$class_8051;Lnet/minecraft/class_1792$class_1793;)V"
-      },
       "net/playerxess/mpfapi/item/BrewingStandBlockEntityMixin": {
         "Lnet/minecraft/item/Item;hasRecipeRemainder()Z": "Lnet/minecraft/class_1792;method_7857()Z",
         "Lnet/minecraft/item/ItemStack;decrement(I)V": "Lnet/minecraft/class_1799;method_7934(I)V",
         "craft": "Lnet/minecraft/class_2589;method_11029(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2371;)V"
-      },
-      "net/playerxess/mpfapi/item/ItemMixin": {
-        "<init>": "Lnet/minecraft/class_1792;<init>(Lnet/minecraft/class_1792$class_1793;)V"
       },
       "net/playerxess/mpfapi/item/ItemStackMixin": {
         "Lnet/minecraft/item/Item;getAttributeModifiers(Lnet/minecraft/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;": "Lnet/minecraft/class_1792;method_7844(Lnet/minecraft/class_1304;)Lcom/google/common/collect/Multimap;",
