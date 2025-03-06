@@ -1,4 +1,0 @@
-v1	named	intermediary
-FIELD	net/playerxess/mpfapi/item/ArmorItemMixin	Ljava/util/EnumMap;	MODIFIERS	field_7876
-FIELD	net/playerxess/mpfapi/item/ArmorItemMixin	F	knockbackResistance	field_21976
-METHOD	net/playerxess/mpfapi/item/ItemStackMixin	()Lnet/minecraft/item/Item;	getItem	method_7909
