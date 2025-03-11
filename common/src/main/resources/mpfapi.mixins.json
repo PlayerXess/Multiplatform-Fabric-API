@@ -1,0 +1,123 @@
+{
+  "required": true,
+  "package": "net.playerxess.mpfapi.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "command.ArgumentTypesAccessor",
+    "command.CommandManagerMixin",
+    "command.EntitySelectorOptionsAccessor",
+    "command.EntitySelectorReaderMixin",
+    "command.HelpCommandAccessor",
+
+    "contentregistries.AbstractFurnaceBlockEntityMixin",
+    "contentregistries.AxeItemAccessor",
+    "contentregistries.FarmerWorkTaskAccessor",
+    "contentregistries.FireBlockMixin",
+    "contentregistries.GiveGiftsToHeroTaskAccessor",
+    "contentregistries.HoeItemAccessor",
+    "contentregistries.HoneycombItemMixin",
+    "contentregistries.LandPathNodeMakerMixin",
+    "contentregistries.OxidizableMixin",
+    "contentregistries.ShovelItemAccessor",
+    "contentregistries.VillagerEntityAccessor",
+
+    "gametest.ArgumentTypesMixin",
+    "gametest.CommandManagerMixin",
+    "gametest.MinecraftServerMixin",
+    "gametest.StructureTemplateManagerMixin",
+    "gametest.TestFunctionsMixin",
+    "gametest.TestServerMixin",
+
+    "item.AbstractFurnaceBlockEntityMixin",
+    "item.ArmorItemMixin",
+    "item.BrewingStandBlockEntityMixin",
+    "item.ItemMixin",
+    "item.ItemStackMixin",
+    "item.LivingEntityMixin",
+    "item.RecipeMixin",
+
+    "itemgroup.ItemGroupAccessor",
+    "itemgroup.ItemGroupMixin",
+    "itemgroup.ItemGroupsMixin",
+
+    "lifecycleevents.DataPackContentsMixin",
+    "lifecycleevents.LivingEntityMixin",
+    "lifecycleevents.MinecraftServerMixin",
+    "lifecycleevents.PlayerManagerMixin",
+    "lifecycleevents.ServerWorldMixin",
+    "lifecycleevents.ServerWorldServerEntityHandlerMixin",
+    "lifecycleevents.ThreadedAnvilChunkStorageMixin",
+    "lifecycleevents.WorldMixin",
+
+    "objectbuilder.AbstractBlockAccessor",
+    "objectbuilder.AbstractBlockSettingsAccessor",
+    "objectbuilder.CriteriaAccessor",
+    "objectbuilder.DefaultAttributeRegistryAccessor",
+    "objectbuilder.DefaultAttributeRegistryMixin",
+    ".objectbuilder.DetectorRailBlockMixin",
+    "objectbuilder.TradeOffersTypeAwareBuyForOneEmeraldFactoryMixin",
+
+    "resourceloader.KeyedResourceReloadListener",
+    "resourceloader.LifecycledResourceManagerImplMixin",
+    "resourceloader.MinecraftServerMixin",
+    "resourceloader.NamespaceResourceManagerMixin",
+    "resourceloader.ReloadableResourceManagerImplMixin",
+    "resourceloader.ResourceMixin",
+    "resourceloader.ResourcePackManagerMixin",
+    "resourceloader.ResourcePackProfileMixin",
+    "resourceloader.ServerPropertiesHandlerMixin",
+    "resourceloader.SimpleResourceReloadMixin",
+    "resourceloader.TestServerMixin",
+
+    "screen.GameRendererMixin",
+    "screen.KeyboardMixin",
+    "screen.MinecraftClientMixin",
+    "screen.MouseMixin",
+    "screen.ScreenAccessor",
+    "screen.ScreenMixin"
+  ],
+  "server": [
+    "gametest.server.MainMixin",
+
+    "lifecycleevents.server.WorldChunkMixin",
+
+    "resourceloader.server.LanguageMixin"
+  ],
+  "client": [
+    "block.BlockMixin",
+    "block.BlockStateMixin",
+
+    "command.client.ClientCommandSourceMixin",
+    "command.client.ClientPlayNetworkHandlerMixin",
+
+    "item.client.ClientPlayerInteractionManagerMixin",
+    "item.client.HeldItemRendererMixin",
+    "item.client.ItemStackMixin",
+
+    "itemgroup.client.CreativeInventoryScreenMixin",
+
+    "lifecycleevents.client.ClientChunkManagerMixin",
+    "lifecycleevents.client.ClientPlayNetworkHandlerMixin",
+    "lifecycleevents.client.ClientWorldClientEntityHandlerMixin",
+    "lifecycleevents.client.ClientWorldMixin",
+    "lifecycleevents.client.MinecraftClientMixin",
+    "lifecycleevents.client.WorldChunkMixin",
+
+    "objectbuilder.client.EntityModelLayersMixin",
+    "objectbuilder.client.HangingSignEditScreenMixin",
+    "objectbuilder.client.ModelPredicateProviderRegistryAccessor",
+    "objectbuilder.client.ModelPredicateProviderRegistrySpesificAccessor",
+    "objectbuilder.client.TexturedRenderLayersMixin",
+
+    "resourceloader.client.CreateWorldScreenMixin",
+    "resourceloader.client.DefaultClientResourcePackProviderMixin",
+    "resourceloader.client.FontManagerMixin",
+    "resourceloader.client.GameOptionsMixin",
+    "resourceloader.client.KeyedResourceReloadListenerClientMixin",
+    "resourceloader.client.VanillaResourcePackProviderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

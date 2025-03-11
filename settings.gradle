@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        maven {
+			url = "https://maven.fabricmc.net"
+			name = "FabricMC"
+		}
+        maven { url "https://maven.architectury.dev/" }
+        maven { url "https://files.minecraftforge.net/maven/" }
+        maven { url 'https://jitpack.io' }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'mpfapi'
+
+include 'common'
+include 'fabric'
+include 'fabric-like'
+include 'forge'
+include 'quilt'

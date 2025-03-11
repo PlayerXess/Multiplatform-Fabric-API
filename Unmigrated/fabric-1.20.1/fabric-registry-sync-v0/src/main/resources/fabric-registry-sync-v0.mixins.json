@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin.registry.sync",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "BootstrapMixin",
+    "ChunkSerializerMixin",
+    "DebugChunkGeneratorAccessor",
+    "IdListMixin",
+    "LevelStorageSessionMixin",
+    "MinecraftServerMixin",
+    "RegistriesAccessor",
+    "RegistriesMixin",
+    "RegistryLoaderMixin",
+    "SaveLoadingMixin",
+    "SerializableRegistriesMixin",
+    "SimpleRegistryMixin",
+    "StructuresToConfiguredStructuresFixMixin",
+    "TagManagerLoaderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

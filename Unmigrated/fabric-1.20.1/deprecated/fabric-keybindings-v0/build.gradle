@@ -1,0 +1,5 @@
+version = getSubprojectVersion(project)
+
+moduleDependencies(project, [
+	'fabric-key-binding-api-v1'
+])

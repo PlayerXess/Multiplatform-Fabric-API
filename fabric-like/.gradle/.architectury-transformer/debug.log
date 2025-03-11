@@ -1,0 +1,16 @@
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] Transforming from C:\Users\enale\Desktop\Programming\Minecraft\Multiplatform-Fabric-API\fabric-like\build\devlibs\mpfapi-fabric-like-1.0.0-dev.jar to C:\Users\enale\Desktop\Programming\Minecraft\Multiplatform-Fabric-API\fabric-like\build\libs\mpfapi-fabric-like-1.0.0-transformProductionQuilt.jar
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\enale\Desktop\Programming\Minecraft\Multiplatform-Fabric-API\fabric-like\build\devlibs\mpfapi-fabric-like-1.0.0-dev.jar to C:\Users\enale\Desktop\Programming\Minecraft\Multiplatform-Fabric-API\fabric-like\build\libs\mpfapi-fabric-like-1.0.0-transformProductionQuilt.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@772f95b
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@40383f36
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@2a031332
+[Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@76b0a96a
+[Architectury Transformer DEBUG] Transforming from C:\Users\enale\Desktop\Programming\Minecraft\Multiplatform-Fabric-API\fabric-like\build\devlibs\mpfapi-fabric-like-1.0.0-dev.jar to C:\Users\enale\Desktop\Programming\Minecraft\Multiplatform-Fabric-API\fabric-like\build\libs\mpfapi-fabric-like-1.0.0-transformProductionQuilt.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/playerxess/mpfapi/fabriclike/MPFAPIFabricLike with maxs=true frames=true
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\enale\Desktop\Programming\Minecraft\Multiplatform-Fabric-API\fabric-like\build\libs\mpfapi-fabric-like-1.0.0-transformProductionQuilt.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 59.58 ms
